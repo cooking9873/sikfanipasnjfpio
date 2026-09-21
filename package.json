@@ -1,0 +1,16 @@
+{
+  "name": "jolaman-study-warrior-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "졸라맨 키우기 - Android WebView app",
+  "scripts": {
+    "build:android": "npx cap add android && npx cap copy android"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.4.4",
+    "@capacitor/core": "7.4.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.4"
+  }
+}
